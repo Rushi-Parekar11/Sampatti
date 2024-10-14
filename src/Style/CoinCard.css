@@ -1,0 +1,17 @@
+.coincardMain{
+    height: 10vh;width: 80vw;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    border-radius: 3px;
+    
+}
+.section{
+    border: 1px solid black;
+    height: 10vh;width: 10%;
+    display: flex;align-items: center;
+}
+#first{
+    display: flex;justify-content: space-around;
+    color: rgb(93, 93, 93);
+}
+
