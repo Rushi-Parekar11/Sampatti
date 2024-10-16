@@ -10,9 +10,12 @@ function Home() {
     // use State to store the API data
     const [coin, setCoin] = useState([])
     const [loading,sertloading] = useState(true)
+    const currency='inr';
 
     // API initialization and call
-    const api = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&per_page=250"
+    const api = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&per_page=250";
+    // const api = `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency}&per_page=250`;
+
     const callApi = async () => {
         try {
             const res = await axios.get(api)
@@ -28,6 +31,7 @@ function Home() {
     useEffect(() => {
         callApi();
     }, [])
+
     let index=1;
 
 
@@ -35,7 +39,7 @@ function Home() {
         <>
 
         {loading ? <Loading/>:<div>
-            <center><h3>Today's Cryptocurrency Prices by Market Cap</h3></center>
+            
             <div className="infobarCO-container"><center>
             <div className="infobarCO">
               <div>#</div>

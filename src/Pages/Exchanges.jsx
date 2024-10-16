@@ -8,7 +8,7 @@ function Exchanges() {
   const [exchange, setExchange] = useState([]);
   const [exLoading, setExLoading] = useState(true);
 
-  const apiexc = 'https://api.coingecko.com/api/v3/exchanges?vs_currency=inr';
+  const apiexc = 'https://api.coingecko.com/api/v3/exchanges?vs_currency=inr?page=2';
 
   const functionForApi = async () => {
     try {

@@ -1,0 +1,20 @@
+.heromain{
+    height: 30vh;width: 100%;
+    border: 1px solid black;
+    display: flex;align-items: center;justify-content: center;
+}
+.herobox{
+    height: 30vh;width: 80%;
+    border: 1px solid red;
+}
+.cardsec{
+    height: 20vh;width: 80%;
+    border: 1px solid green;
+    display: flex;gap: 10px;
+}
+.tranding{
+    height: 15vh;width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0d6dfd2e;
+}
