@@ -1,12 +1,19 @@
 .coincardMain{
     height: 10vh;width: 80vw;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
     display: flex;
     border-radius: 3px;
     
 }
+
+.coincardMain:hover{
+    transform: scale(1.007);
+    transition: transform ease 1s;
+    /* background-color: rgb(235, 235, 235); */
+    box-shadow: 2px 4px 9px 1px rgba(27,58,146,.2);
+}
 .section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 10vh;width: 10%;
     display: flex;align-items: center;
 }
@@ -14,4 +21,7 @@
     display: flex;justify-content: space-around;
     color: rgb(93, 93, 93);
 }
-
+#posNig{width: 12%;}
+#marketcap{font-size: small;width: 12%;color: gray;}
+#volume{font-size: small;width: 12%;color: gray;}
+#price{width: 15%;}

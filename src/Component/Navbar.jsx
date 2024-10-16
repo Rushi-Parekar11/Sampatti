@@ -1,13 +1,15 @@
 import React from 'react'
-import Home from './Home'
-
+import Home from '../Pages/Home'
+import Exchanges from '../Pages/Exchanges'
 
 function Navbar() {
   return (
     <>
     
     <Home/>
-
+    {/* <Exchanges/> */}
+    
+      
     </>
   )
 }

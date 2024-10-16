@@ -11,7 +11,7 @@ display: flex;justify-content: center;
 .coincardStore{
 height: auto;
 width: 80%;
-border: 1px solid green;
+/* border: 1px solid green; */
 display: flex;flex-direction: column;gap: 8px;
 /* margin: 0px 100px; */
 }
@@ -19,8 +19,25 @@ display: flex;flex-direction: column;gap: 8px;
 
 
 
-
-/* ////////////////////////////////////////////////////////////////////////////////////// */
+  .infobarCO-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; 
+  }
+  
+  .infobarCO {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 80vw; 
+    padding-left: 55px;
+    align-items: end;
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    margin: 0;
+  }
+  
 
   
   

@@ -1,0 +1,34 @@
+.mainExchange {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .ExcardStore {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .infobar-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white; 
+  }
+  
+  .infobar {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 80vw; 
+    padding-left: 35px;
+    align-items: end;
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    margin: 0;
+  }
+  

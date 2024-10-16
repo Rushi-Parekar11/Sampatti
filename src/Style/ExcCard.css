@@ -1,0 +1,30 @@
+.ExccardMain{
+    height: 10vh;width: 80vw;
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 3px;
+    
+}
+.ExccardMain:hover{
+    transform: scale(1.007);
+    transition: transform ease 1s;
+    /* background-color: rgb(235, 235, 235); */
+    box-shadow: 2px 4px 9px 1px rgba(27,58,146,.2);
+}
+.Excsection{
+    height: 10vh;width: 10%;
+    display: flex;align-items: center;
+    /* border: 1px solid black; */
+}
+#Excfirst{
+    display: flex;justify-content: space-around;
+    color: rgb(93, 93, 93);width: 14%
+}
+
+#score{
+    display: flex;align-items: center;justify-content: center;width: 14%;
+}
+
+#country{
+    width: 16%;font-size: smaller;color: gray;display: flex;flex-direction: column;text-align: center;justify-content: center;
+}
